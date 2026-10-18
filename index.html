@@ -3,89 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cayuhu AI | Autonomous Telemetry & SRE Agent</title>
-    <meta name="description" content="Next-generation autonomous SRE platform powered by Anthropic Claude for intelligent incident triage and codebase hot-patching.">
+    <title>HarvestKarya AI - Autonomous Precision Agriculture Intelligence</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <style>body { font-family: 'Inter', sans-serif; }</style>
 </head>
-<body class="bg-slate-950 text-slate-100 min-h-screen flex flex-col justify-between">
-    <!-- Navbar -->
-    <header class="border-b border-slate-800 bg-slate-900/50 backdrop-blur px-6 py-4">
-        <div class="max-w-6xl mx-auto flex items-center justify-between">
-            <div class="flex items-center space-x-3">
-                <div class="w-8 h-8 rounded-lg bg-indigo-600 flex items-center justify-center font-bold text-white shadow-lg shadow-indigo-500/30">C</div>
-                <span class="text-xl font-bold tracking-tight text-white">Cayuhu<span class="text-indigo-400">.ai</span></span>
-            </div>
-            <nav class="hidden md:flex space-x-8 text-sm font-medium text-slate-300">
-                <a href="#features" class="hover:text-white transition">Platform</a>
-                <a href="#architecture" class="hover:text-white transition">Architecture</a>
-                <a href="#pricing" class="hover:text-white transition">Pricing</a>
-                <a href="#contact" class="hover:text-white transition">Docs</a>
-            </nav>
-            <div class="flex items-center space-x-3">
-                <a href="#demo" class="px-4 py-2 text-xs font-semibold rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white transition shadow-sm">Request Access</a>
-            </div>
+<body class="bg-slate-950 text-slate-100 font-sans antialiased">
+    <nav class="border-b border-slate-800 px-8 py-5 flex justify-between items-center max-w-7xl mx-auto">
+        <div class="flex items-center space-x-2">
+            <div class="h-8 w-8 bg-emerald-500 rounded-lg flex items-center justify-center font-bold text-slate-950">H</div>
+            <span class="text-xl font-bold tracking-tight">HarvestKarya<span class="text-emerald-400">.cloud</span></span>
         </div>
-    </header>
+        <div class="space-x-6 text-sm text-slate-400">
+            <a href="#platform" class="hover:text-white transition">Platform</a>
+            <a href="#models" class="hover:text-white transition">Models</a>
+            <a href="#contact" class="hover:text-white transition">Contact</a>
+        </div>
+    </nav>
 
-    <!-- Hero Section -->
-    <main class="max-w-6xl mx-auto px-6 py-20 flex flex-col items-center text-center">
-        <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full border border-indigo-500/30 bg-indigo-950/40 text-xs font-medium text-indigo-300 mb-8">
-            <span class="w-2 h-2 rounded-full bg-indigo-400 animate-pulse"></span>
-            <span>Claude 3.5 Sonnet Integration Active</span>
+    <main class="max-w-5xl mx-auto px-6 py-24 text-center">
+        <div class="inline-flex items-center space-x-2 bg-emerald-950/60 border border-emerald-500/30 px-3 py-1 rounded-full text-xs text-emerald-300 mb-8">
+            <span class="inline-block w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+            <span>Powered by Claude Sonnet 4.6 Vision & Reasoning Engine</span>
         </div>
-        <h1 class="text-4xl md:text-6xl font-bold tracking-tight text-white max-w-4xl leading-tight">
-            Autonomous Reliability Engineering with <span class="bg-gradient-to-r from-indigo-400 via-sky-300 to-indigo-200 bg-clip-text text-transparent">Context-Aware AI</span>
+        
+        <h1 class="text-5xl sm:text-6xl font-extrabold tracking-tight mb-8 leading-tight">
+            Next-Gen Agricultural Intelligence, <br/><span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-teal-300">Driven by Autonomous Vision Models</span>
         </h1>
-        <p class="mt-6 text-lg text-slate-400 max-w-2xl leading-relaxed">
-            Cayuhu ingests real-time distributed telemetry, maps cross-service dependencies, and synthesizes verified pull requests to remediate production incidents before users notice.
+        
+        <p class="text-lg text-slate-400 max-w-2xl mx-auto mb-10 leading-relaxed">
+            HarvestKarya integrates Claude models into real-time agricultural telemetry, drone crop analysis, and predictive yield modeling across 40,000+ hectares of precision farming.
         </p>
-        <div class="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="#demo" class="px-6 py-3 rounded-xl bg-indigo-600 hover:bg-indigo-500 font-semibold text-white shadow-lg shadow-indigo-600/30 transition">Deploy Agent</a>
-            <a href="https://github.com/iGelsGOD" class="px-6 py-3 rounded-xl border border-slate-800 bg-slate-900/60 hover:bg-slate-800 font-semibold text-slate-300 transition">View Architecture Repo</a>
+
+        <div class="flex justify-center space-x-4 mb-20">
+            <a href="mailto:founder@harvestkarya.cloud" class="bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold px-6 py-3 rounded-xl transition">Request Access</a>
+            <a href="#platform" class="border border-slate-800 hover:bg-slate-900 px-6 py-3 rounded-xl text-slate-300 transition">View Architecture</a>
         </div>
 
-        <!-- Terminal Demo Card -->
-        <div class="mt-16 w-full max-w-4xl rounded-xl border border-slate-800 bg-slate-900/90 p-5 text-left font-mono text-xs shadow-2xl overflow-hidden">
-            <div class="flex items-center space-x-2 pb-3 mb-3 border-b border-slate-800 text-slate-500">
-                <div class="w-3 h-3 rounded-full bg-rose-500/80"></div>
-                <div class="w-3 h-3 rounded-full bg-amber-500/80"></div>
-                <div class="w-3 h-3 rounded-full bg-emerald-500/80"></div>
-                <span class="ml-2 text-slate-400">cayuhu-agent-daemon v2.4 (cluster-us-east)</span>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-left" id="platform">
+            <div class="p-6 rounded-2xl bg-slate-900/60 border border-slate-800">
+                <div class="text-emerald-400 font-semibold mb-2">Multimodal Crop Vision</div>
+                <p class="text-sm text-slate-400">Automated pathogen and nutrient deficiency detection running on high-throughput Claude Vision APIs.</p>
             </div>
-            <p class="text-slate-400">[02:14:10] Ingesting OpenTelemetry trace stream (64,200 spans/sec)...</p>
-            <p class="text-amber-400">[02:14:12] ANOMALY DETECTED: Latency spike in auth-service /v2/token (p99 > 1850ms)</p>
-            <p class="text-sky-400">[02:14:13] Claude 3.5 Sonnet analyzing repo diff & DB connection pool exhaustion...</p>
-            <p class="text-emerald-400">[02:14:15] Synthesized hot-patch PR #412: Dynamic connection pooling + backpressure throttling</p>
-            <p class="text-emerald-300 font-semibold mt-2">✔ Automated verification tests passed in isolated sandbox (latency restored to 24ms)</p>
+            <div class="p-6 rounded-2xl bg-slate-900/60 border border-slate-800">
+                <div class="text-emerald-400 font-semibold mb-2">Agentic Supply Routing</div>
+                <p class="text-sm text-slate-400">Autonomous supply chain routing and logistics optimization utilizing Claude Tool Calling & MCP agents.</p>
+            </div>
+            <div class="p-6 rounded-2xl bg-slate-900/60 border border-slate-800">
+                <div class="text-emerald-400 font-semibold mb-2">Telemetry Reasoning</div>
+                <p class="text-sm text-slate-400">Real-time sensor stream anomaly resolution and microclimate forecast calibration.</p>
+            </div>
         </div>
     </main>
 
-    <!-- Features Grid -->
-    <section id="features" class="max-w-6xl mx-auto px-6 py-16">
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div class="p-6 rounded-xl border border-slate-800 bg-slate-900/40">
-                <div class="w-10 h-10 rounded-lg bg-indigo-950 border border-indigo-800 flex items-center justify-center text-indigo-400 mb-4 font-bold">01</div>
-                <h3 class="text-lg font-semibold text-white mb-2">Deep Trace Ingestion</h3>
-                <p class="text-sm text-slate-400">Full OpenTelemetry compatibility. Continuous indexing of logs, metrics, and traces into dense token representations.</p>
-            </div>
-            <div class="p-6 rounded-xl border border-slate-800 bg-slate-900/40">
-                <div class="w-10 h-10 rounded-lg bg-indigo-950 border border-indigo-800 flex items-center justify-center text-indigo-400 mb-4 font-bold">02</div>
-                <h3 class="text-lg font-semibold text-white mb-2">Frontier Model Reasoning</h3>
-                <p class="text-sm text-slate-400">Leverages Anthropic Claude reasoning kernels to correlate distributed anomalies with git commit histories.</p>
-            </div>
-            <div class="p-6 rounded-xl border border-slate-800 bg-slate-900/40">
-                <div class="w-10 h-10 rounded-lg bg-indigo-950 border border-indigo-800 flex items-center justify-center text-indigo-400 mb-4 font-bold">03</div>
-                <h3 class="text-lg font-semibold text-white mb-2">Zero-Human Hotpatching</h3>
-                <p class="text-sm text-slate-400">Auto-generates idempotent patch commits validated through ephemeral sandbox runner pipelines.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="border-t border-slate-800 py-8 text-center text-xs text-slate-500">
-        <p>© 2026 Cayuhu Systems Inc. All rights reserved. | Powered by Claude 3.5 & 3.7 Architecture</p>
+    <footer class="border-t border-slate-900 py-8 text-center text-xs text-slate-600">
+        <p>© 2026 HarvestKarya Cloud Technologies Inc. All rights reserved. • Contact: founder@harvestkarya.cloud</p>
     </footer>
 </body>
 </html>
